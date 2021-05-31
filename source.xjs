@@ -1,0 +1,139 @@
+
+function maximum
+pass in arr
+let max = arr[0]
+let n = lengthOf(arr)
+from 0 to n as i
+  if max is less than arr[i]
+    max = arr[i]
+  :
+endfrom
+display "The maximum value in the list is: " +max
+:
+
+function minimum
+pass in arr
+let min = arr[0]
+let n = lengthOf(arr)
+from 0 to n as i
+  if min is greater than arr[i]
+    min = arr[i]
+  :
+endfrom
+display "The minimum value in the list is: " +min
+:
+
+function sum
+pass in arr
+let add = 0
+let n = lengthOf(arr)
+from 1 to n as i
+  let add = add plus arr[i]
+endfrom
+display "The sum of all the numbers are: " +add
+:
+
+function average
+pass in arr
+let add = 0
+let n = lengthOf(arr)
+from 1 to n as i
+  let add = add plus arr[i]
+endfrom
+display "The average of the numbers are: " +(add / (lengthOf(arr)))
+:
+
+initialize array with 591, 617, 610, 434, 713, 628, 879, 42, 835, 62, 472, 817, 430, 734, 202, 63, 814, 999, 517, 48, 71, 54, 450, 922, 381, 636, 637, 204, 816, 419, 194, 583, 720, 516, 793, 418, 739, 443, 336, 698, 869, 712, 916, 742, 11, 586, 877, 865, 563, 484, 282, 973, 385, 274, 555, 421, 572, 264, 223, 691, 273, 119, 584, 982, 944, 482, 674, 464, 878, 975, 367, 476, 275, 507, 50, 231, 490, 590, 902, 502, 460, 397, 396, 422, 596, 487, 427, 783, 843, 104, 620, 883, 952, 161, 406, 73, 327, 193, 898, 796, 892, 84, 812, 437, 451, 505, 545, 888, 711, 146, 558, 478, 635, 561, 537, 990, 951, 745, 508, 56, 699, 923, 23, 226, 836, 850, 568, 425, 169, 830, 832, 163, 723, 217, 971, 643, 168, 895, 333, 818, 662, 522, 53, 875, 928, 137, 276, 238, 946, 959, 312, 947, 143, 626, 401, 833, 467, 841, 267, 444, 215, 575, 469, 647, 681, 666, 359, 339, 136, 825, 623, 195, 618, 245, 630, 409, 774, 98, 300, 326, 539, 213, 21, 99, 541, 365, 192, 518, 79, 966, 686, 280, 318, 160, 261, 388, 962, 242, 807, 736, 230, 578, 847, 167, 447, 69, 122, 338, 386, 308, 589, 514, 475, 30, 715, 639, 908, 337, 432, 126, 6, 899, 77, 468, 625, 3, 57, 949, 107, 262, 683, 532, 41, 254, 762, 341, 9, 624, 370, 747, 752, 685, 144, 551, 744, 533, 557, 724, 943, 525, 968, 246, 670, 209, 632, 198, 259, 697, 439, 129, 688, 860, 340, 621, 953, 420, 737, 453, 442, 174, 271, 123, 94, 412, 74, 362, 51, 900, 189, 343, 105, 171, 911, 811, 260, 608, 463, 891, 298, 299, 524, 124, 391, 19, 350, 392, 579, 320, 654, 753, 323, 882, 210, 552, 303, 659, 827, 560, 112, 504, 754, 8, 682, 553, 640, 130, 5, 328, 761, 842, 377, 955, 59, 153, 749, 287, 125, 240, 594, 399, 83, 498, 296, 601, 750, 315, 251, 909, 954, 93, 977, 613, 988, 859, 473, 725, 821, 880, 177, 325, 554, 67, 446, 286, 295, 128, 400, 247, 706, 535, 380, 657, 258, 92, 798, 680, 97, 489, 35, 603, 634, 284, 509, 410, 631, 408, 394, 976, 253, 939, 483, 600, 759, 813, 452, 582, 986, 417, 520, 424, 360, 997, 106, 961, 187, 357, 184, 963, 151, 769, 228, 546, 133, 527, 538, 176, 648, 728, 808, 66, 548, 886, 605, 479, 652, 934, 840, 152, 250, 897, 120, 576, 611, 839, 95, 559, 330, 352, 316, 907, 764, 701, 415, 89, 964, 868, 221, 109, 885, 485, 920, 279, 702, 854, 676, 309, 642, 867, 349, 789, 766, 203, 356, 531, 679, 770, 306, 495, 974, 876, 110, 855, 302, 544, 556, 870, 233, 924, 111, 881, 866, 289, 889, 771, 743, 108, 16, 196, 751, 334, 335, 182, 709, 799, 871, 660, 60, 407, 44, 755, 932, 216, 996, 29, 87, 619, 382, 165, 926, 800
+
+call maximum with array
+call minimum with array
+call sum with array
+call average with array
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** BUBBLE SORT
+initialize initial with 2, 12, 1, 5, 4, 7
+set temp 
+let flag = true
+let n = 6
+while flag == true
+  flag = false
+  from 0 to (n-1) as k
+    if initial[k] is greater than initial[k+1]
+      temp = initial[k]
+      initial[k] = initial[k+1]
+      flag = true
+    endif
+  endfrom 
+  decrement n by 1
+end
+
+from 0 to 6 as h
+display initial[h]
+endfrom
+**/
+
+/** SELECTION SORT
+initialize letters with 'a', 'y', 'b', 'p', 'x', 'o'
+set temp
+let index = 0
+//CHECKING FOR ARRAY LENGTH
+let n = lengthOf(letters)
+
+from 0 to (n-1) as L
+  temp = letters[L]
+  index = L
+    from (L+1) to n as K
+      if letters[K] is less than temp
+        temp = letters[K]
+        index = K
+      endif
+    letters[index] = letters[L]  
+    letters[L] = temp
+    endfrom
+  letters[index] = letters[L]
+  letters[L] = temp
+endfrom
+
+from 0 to lengthOf(letters) as y
+  display letters[y]
+endfrom
+**/
+
+
+
+
+
+
+
+
+

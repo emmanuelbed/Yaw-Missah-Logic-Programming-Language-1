@@ -1,0 +1,16 @@
+{
+  "name": "Logic-Programming-Language",
+  "version": "1.0.0",
+  "description": "",
+  "main": "source.xjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "add": "^2.0.6",
+    "prompts": "^2.4.0"
+  }
+}
