@@ -80,7 +80,7 @@ call average with array
 
 
 
-/** BUBBLE SORT
+
 initialize initial with 2, 12, 1, 5, 4, 7
 set temp 
 let flag = true
@@ -100,9 +100,9 @@ end
 from 0 to 6 as h
 display initial[h]
 endfrom
-**/
 
-/** SELECTION SORT
+
+
 initialize letters with 'a', 'y', 'b', 'p', 'x', 'o'
 set temp
 let index = 0
@@ -127,7 +127,7 @@ endfrom
 from 0 to lengthOf(letters) as y
   display letters[y]
 endfrom
-**/
+
 
 
 
